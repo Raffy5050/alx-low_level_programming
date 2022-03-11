@@ -1,24 +1,22 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
-
+#include <time.h>
 /**
-*main - function is the entry point that returns int
-*Takes a number and prints it if its positive, negative or zero
-*Return: return 0 after being called as a success
-*/
-
+ *main -entry point of program
+ *Return: zero
+ */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+	int n;
+	srand(time(0));
 
-if (n > 0)
-printf("%d is positive\n", n);
-else if (n < 0)
-printf("%d is negative\n", n);
-else
-printf("%d is zero\n", n);
-return (0);
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("% is negative\n", n);
+	else
+	 printf("%i is zero\n", n);
+	return (0);
 }
