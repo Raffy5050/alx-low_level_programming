@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
 *main - entry point
-*Description: program prints possible combinations of two two-digt.
 *Return: zero
 */
 int main(void)
