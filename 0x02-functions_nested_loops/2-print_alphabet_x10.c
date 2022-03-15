@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-*prints_alphabet_x10 - print 10 times
+*print_alphabet_x10 - print 10 time
+*Description: print alphabet 10 times
 *Return: 0
 */
-void  print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 int count, alphabets;
 count = 10;
